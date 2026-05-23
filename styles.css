@@ -4,7 +4,7 @@
   --text-primary: #1D1D1F;
   --text-secondary: #6B7280;
   --text-tertiary: #9CA3AF;
-  --accent: #2476FA;
+  --accent: #A3E105;
   --accent-glow: rgba(36, 118, 250, 0.25);
   --tab-bg: #F2F2F7;
   --border: #E5E5EA;
@@ -116,7 +116,7 @@ body {
 }
 
 .tab-button.active {
-  color: white;
+  color: var(--text-primary);
 }
 
 .tab-indicator {
