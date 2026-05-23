@@ -61,14 +61,15 @@ body {
   align-items: center;
 }
 
-.header-top {
-  margin-bottom: 12px;
-}
-
 .app-logo {
   height: 24px;
   width: auto;
   display: block;
+}
+
+.header-top {
+  margin-bottom: 12px;
+  padding-top: 40px;
 }
 
 .header-tabs {
@@ -182,6 +183,17 @@ body {
   margin: 0 0 20px;
   color: var(--text-primary);
   line-height: 1.75;
+}
+
+.content ul {
+  margin: 0 0 20px;
+  padding-left: 24px;
+  color: var(--text-primary);
+  line-height: 1.75;
+}
+
+.content li {
+  margin-bottom: 4px;
 }
 
 .content p:last-child {
